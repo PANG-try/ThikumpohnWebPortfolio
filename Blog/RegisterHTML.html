@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='RegisterJAVA.js'> </script>
+    <title>CC Blog-Register</title>
+</head>
+<body>
+    <div id="back">
+		<a href="../index.html">Home</a>
+    </div>
+    <div class="grid-container">
+        <!-- <div id="header">1</div> -->
+        <!-- <div id="left">2</div> -->
+            <div id="left">
+                <h1>CC Blog</h1>
+                <p>ลงทะเบียนเข้าสู่ระบบเพื่ออ่านบล็อกจากบล็อกเกอร์มากมาย</p>
+            </div>
+        <!-- <div id="right">3</div> -->
+        <div id="right">
+            <form name="Register" id="register" action="LoginHTML.html">
+            <h3>Register</h3>
+            <!-- <fieldset id="form"> -->
+            <!-- <legend>Register</legend> -->
+            <!-- <span>* require</span> <br>  -->
+            <span id="errormsg"></span> <br>
+            <input type="text" name="firstname" placeholder="Firstname" required><br>
+            <!-- Last name*:  -->
+            <input type="text" name="lastname" placeholder="Lastname" required >
+            <br>
+            <!-- Gender*: 
+            <input type="radio" name="gender" value="male" >Male
+            <input type="radio" name="gender" value="female" >Female
+            <input type="radio" name="gender" value="LGBT" >Other
+            <br>
+            Birthday*: 
+            <input type="date" name="birthday" value="" required>
+            <br> -->
+            <input type="email" name="email" placeholder="Email">
+            <br>
+            <input type="text" name="username" placeholder="Username">
+            <br>
+            <input type="password" name="password" placeholder="Password">
+            <br>
+            <input type="password" name="retypepassword" placeholder="Comfirm Password">
+            <br>
+            <input type="submit" value="Register">
+            <!-- <input type="reset" value="Reset"> -->
+            <!-- </fieldset> -->
+            <!-- <h6 id='gtLogin'>I have an account?</h6> -->
+            </form>
+        </div>
+        
+    </div>  
+    <div id="footer">
+        @CC Blog
+        <!-- <ul>
+            <ul>instagram</ul>
+            <ul>Facebook</ul>
+            <ul>mail</ul>
+
+        </ul> -->
+    </div>
+</body>
+</html>

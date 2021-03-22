@@ -1,0 +1,119 @@
+a{
+    text-decoration: none;
+
+}
+#back{
+    /* margin: auto; */
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    padding-top: 10px;
+}
+#back a{
+    
+    color: whitesmoke;
+}
+html{
+    /* background-image: linear-gradient(45deg
+    , rgb(233, 191, 113) 0%, rgb(211, 162, 70) 70%, #e2cb80 100%); */
+    background-color: rgb(211, 162, 70);
+
+    font-family: 'system-ui','sans-serif',"Gill Sans", sans-serif;
+}
+.grid-container{
+    grid-gap: 10px; 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body{
+    margin: 0px;
+}
+.grid-container > div{
+    grid-template-columns: 50% 50%;
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+h1,h3,h6{
+    margin-block-end: 0em;
+}
+h6{
+    margin-block-start: 0em;
+
+}
+h1,h3{
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+/* #header{
+    background-color: red;
+    grid-column: 1/5;
+} */
+#right{
+    max-width: 100%;
+    grid-column: 2/3;
+}
+#left{
+    grid-column: 1/2;
+    text-align: left;
+    max-width: 100%;
+}
+
+#footer{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#register,#login{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 10px 10px 10px rgb(0, 0, 0 ,20%);
+    width: 100%;
+}
+#login{
+    width: 100%;
+}
+.gtregister{
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0 rgb(0, 0, 0 ,20%);
+}
+
+input{
+    margin: 5px;
+    border-radius: 2px;
+    border: rgb(221, 221, 221);
+    background-color: rgb(221, 221, 221);
+    height: 30px;
+    /* width: 80%; */
+    text-align: center;
+}
+/* input[type=reset], */
+[type=submit]{
+    /* width: 40%; */
+    background-color: rgba(151, 151, 151, 0.685);
+} 
+
+
+#logo{
+    text-align: center;
+}
+/* @media only screen and (max-width : 520px)
+{
+input[type=reset],  
+      [type=submit]{
+        width: 40%;
+        background-color: rgba(151, 151, 151, 0.685);
+    } 
+} */
+
